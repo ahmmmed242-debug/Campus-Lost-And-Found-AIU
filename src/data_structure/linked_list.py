@@ -3,8 +3,11 @@ class Node :
     def __init__(self,data,next=None):
         self.data = data
         self.next = next
+    
+    def __str__(self):
+        return f"data : {self.data} \n "
 
-class linked_list:
+class LinkedList:
     def __init__(self):
         self.head = None
         self._size = 0
