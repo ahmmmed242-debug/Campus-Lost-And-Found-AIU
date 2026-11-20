@@ -9,6 +9,3 @@ class User:
 
     def __str__(self):
         return f"User ID: {self.user_id}, Name: {self.name}, Email: {self.email}, Phone: {self.phone}, Role: {self.role}"
-user1 = User(1, "Ahmed", "ahmed@gmail.com", "01012345678", "Student")
-
-print(user1)
